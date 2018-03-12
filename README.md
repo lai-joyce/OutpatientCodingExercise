@@ -1,6 +1,6 @@
 # OutpatientCodingExercise
 
-## This will be a backend application that will have two endpoints:  
+## This is a backend application that will have two endpoints:  
 
 * 1. returns a list of physical therapists based on a user's location 
 
