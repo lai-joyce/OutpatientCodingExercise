@@ -24,8 +24,11 @@ function grabPTinfo(location) {
 
 	client.search(searchRequest).then(response => {
 		const firstResult = response.jsonBody.businesses[0];
+		const totalNumberPTResults = response.jsonBody.total;
 		const prettyJson = JSON.stringify(firstResult, null, 4);
+		const prettyJsonTotal = JSON.stringify(totalNumberPTResults, null, 4);
 		console.log(prettyJson);
+		console.log(prettyJsonTotal);
 	}).catch(e => {
 		console.log(e);
 	});
