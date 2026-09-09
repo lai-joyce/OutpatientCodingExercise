@@ -16,7 +16,5 @@
     "url": "https://github.com/lai-joyce/OutpatientCodingExercise/issues"
   },
   "homepage": "https://github.com/lai-joyce/OutpatientCodingExercise#readme",
-  "dependencies": {
-    "request": "^2.83.0"
-  }
+  "dependencies": {}
 }
